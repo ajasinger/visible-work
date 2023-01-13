@@ -1,0 +1,8 @@
+/*Universal*/
+html, body {
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    color: black;
+    background-color: #f4f3e8;
+    margin: 0;
+}
