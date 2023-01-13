@@ -6,3 +6,14 @@ html, body {
     background-color: #f4f3e8;
     margin: 0;
 }
+
+/*Link*/
+a {
+    text-decoration: underline;
+}
+
+/*Hover*/
+a:hover {
+    text-decoration: none;
+    color: #BF463B;
+}
