@@ -9,6 +9,10 @@ html, body {
 }
 
 /*Text styling*/
+h2 {
+    font-size: 100px;
+}
+
 p {
     margin: 0 200px;
     font-family: 'Signika Negative', sans-serif;
