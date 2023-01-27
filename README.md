@@ -1,20 +1,19 @@
-#VISIBLE WORK WEB APP
+# VISIBLE WORK WEB APP
 
-##Description: 
+## Description: 
 The purpose of this project is to build a web app for Visible Work, a personal branding service. 
 It will list their services, feature an email sign-up form, and include a checkout for customers 
 to pay for their program. 
 
-##Features:
-*Animated text
-*sign-up form 
-*checkout
+## Features:
+* Animated text
+* sign-up form 
+* checkout
 
-##Technologies: 
-*JavaScript
-*Stripe Checkout
+## Technologies: 
+* JavaScript Stripe Checkout
 
-##License: 
+## License: 
 MIT License
 
 Copyright (c) 2023 Aja Singer
