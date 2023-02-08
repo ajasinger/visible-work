@@ -6,6 +6,7 @@ html, body {
     background-color: #f4f3e8;
     text-align: center;
     margin: 0;
+    padding: 0;
 }
 
 /*Text styling*/
@@ -17,7 +18,8 @@ p {
 }
 
 .banner {
-    font-size: 5em;
+    font-size: 4em;
+    line-height: 2.5em;
 }
 
 /*Announcement Bar*/
