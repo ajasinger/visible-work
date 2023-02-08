@@ -17,6 +17,11 @@ p {
     letter-spacing: 0.1em;
 }
 
+/*Banner Text styling*/
+h1 {
+    margin-top: 0.25em;
+}
+
 .banner {
     font-size: 4em;
     line-height: 2.5em;
