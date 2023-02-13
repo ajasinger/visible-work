@@ -1,3 +1,13 @@
+const carouselText = [
+  {text: "Apple"},
+  {text: "Orange"},
+  {text: "Lemon"}
+]
+
+$( document ).ready(async function() {
+  carousel(carouselText, "#feature-text")
+});
+
 /*typing function*/
 
 async function typeSentence(word, eleRef, delay = 100) {
