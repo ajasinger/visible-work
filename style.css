@@ -1,29 +1,33 @@
 /*Universal*/
 html, body {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
+    letter-spacing: 0.1em;
     color: black;
     background-color: #f4f3e8;
-    text-align: center;
     margin: 0;
     padding: 0;
 }
 
 /*Text styling*/
 p {
-    margin: 0 12em;
-    font-family: 'Signika Negative', sans-serif;
     font-weight: 300;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1rem;
+    line-height: 2em;
+}
+
+h2 {
+    font-family: 'Space Mono', monospace;
 }
 
 /*Banner Text styling*/
 h1 {
+    font-family: 'Space Mono', monospace;
     margin-top: 0.25em;
 }
 
 .banner {
-    font-size: 4em;
+    font-size: 4rem;
     line-height: 2.5em;
 }
 
@@ -35,11 +39,10 @@ h1 {
     width: 100%;
     background: #C1FD8A;
     color: black;
-    font-family: 'Signika Negative', sans-serif;
     font-weight: 400;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1rem;
     vertical-align: middle;
-    font-size: 1em;
+    font-size: 1rem;
     margin: auto;
     align-items:center;
     justify-content:center;
@@ -55,7 +58,7 @@ h1 {
 
 /*Navigation Bar*/
 nav {
-    margin: 0 32px;
+    margin: 0 2em;
 }
 
 nav ul {
@@ -68,8 +71,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     list-style-type: none;
-    padding: 0 20px;
-    /*font-family: 'Signika Negative', sans-serif;*/
+    padding: 0 1.5em;
 }
 nav ul li a {
     color: black;
