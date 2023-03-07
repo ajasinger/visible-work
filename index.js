@@ -9,6 +9,4 @@ function type() {
   //for i=1 etc etc  
 }
 
-//deleting animation 
-
-//how to type then delete then type next word?
+type(txt);
