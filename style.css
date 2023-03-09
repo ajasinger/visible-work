@@ -1,4 +1,4 @@
-/*Universal*/
+/* Universal */
 html, body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -9,7 +9,7 @@ html, body {
     padding: 0;
 }
 
-/*Text styling*/
+/* Text styling */
 p {
     font-weight: 300;
     letter-spacing: 0.1rem;
@@ -20,7 +20,7 @@ h2 {
     font-family: 'Space Mono', monospace;
 }
 
-/*Banner Text styling*/
+/* Banner Text styling */
 h1 {
     font-family: 'Space Mono', monospace;
     margin-top: 0.25em;
@@ -31,7 +31,7 @@ h1 {
     line-height: 2.5em;
 }
 
-/*Announcement Bar*/
+/* Announcement Bar */
 .announcement {
     display: flex;
     height: 2em;
@@ -56,9 +56,10 @@ h1 {
     color: blue;
   }
 
-/*Navigation Bar*/
+/* Navigation Bar */
 nav {
     margin: 0 2em;
+    background-color: white;
 }
 
 nav ul {
@@ -82,35 +83,30 @@ nav ul li:first-child {
     margin-right: auto;
 }
 
-/*Banner*/
-.typing-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-@keyframes blink {
-    0% {opacity: 1;}
-    40% {opacity: 1;}
-    60% {opacity: 0;}
-    100% {opacity: 0;}
-  }
-.cursor {
-    display: inline-block;
-    width: 2px;
-    height: 42px;
-    background-color: white;
-    margin-left: 8px;
-    animation: blink .6s linear infinite alternate;
-}
+/* Banner */
 
-/*Hover*/
+/* Hover */
 a:hover {
     text-decoration: none;
     border-bottom: none;
     color: blue;
 }
 
-/*Main*/
+/* Offering */
+.offering-block {
+    background-color: white;
+}
+
 .what-we-do {
     padding-bottom: 40px; 
+}
+
+/* Apply */
+.apply-block {
+    background-color: white;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
 }
