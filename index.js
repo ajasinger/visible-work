@@ -1,12 +1,10 @@
-const i = 0;
-const txt = ['WORK', 'EXPERIENCE', 'ACCOMPLISHMENTS'];
+const word = 'hello';
 
-//typing animation 
-function type() {
-  //split array into words 
-  //for i=0 loop through letters and add them to the DOM 
-  //delete them from the DOM 
-  //for i=1 etc etc  
+function typeWord(word) {
+  let i = 0;
+  if (i < word.length) {
+    document.getElementById("type").innerHTML += word.charAt(i);
+    i++;
+    setTimeout(typeWord, 50);
+  }
 }
-
-type(txt);
