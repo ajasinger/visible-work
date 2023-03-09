@@ -4,7 +4,7 @@ html, body {
     font-size: 16px;
     letter-spacing: 0.1em;
     color: black;
-    background-color: #f4f3e8;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -23,12 +23,13 @@ h2 {
 /* Banner Text styling */
 h1 {
     font-family: 'Space Mono', monospace;
-    margin-top: 0.25em;
 }
 
-.banner {
+.banner-block {
     font-size: 4rem;
     line-height: 2.5em;
+    background-color: #f4f3e8;
+    text-align: center;
 }
 
 /* Announcement Bar */
@@ -37,10 +38,10 @@ h1 {
     height: 2em;
     text-align: center;
     width: 100%;
-    background: #C1FD8A;
+    background: #F1FF9D;
     color: black;
     font-weight: 400;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.075rem;
     vertical-align: middle;
     font-size: 1rem;
     margin: auto;
@@ -60,6 +61,7 @@ h1 {
 nav {
     margin: 0 2em;
     background-color: white;
+    position: sticky;
 }
 
 nav ul {
@@ -76,8 +78,9 @@ nav ul li {
 }
 nav ul li a {
     color: black;
+    font-weight: bold;
     text-decoration: none;
-    border-bottom: 0.25em solid blue;
+    /* border-bottom: 0.25em solid blue; */
 }
 nav ul li:first-child {
     margin-right: auto;
@@ -89,24 +92,46 @@ nav ul li:first-child {
 a:hover {
     text-decoration: none;
     border-bottom: none;
-    color: blue;
+    color: #E7E8FE;
 }
 
 /* Offering */
 .offering-block {
     background-color: white;
+    padding: 4rem;
 }
 
-.what-we-do {
-    padding-bottom: 40px; 
+/* Program */
+.program-block {
+    background-color: #f4f3e8;
+    text-align: center;
+    padding: 4rem;
+}
+
+/* Cost */
+.cost-block {
+    background-color: #f4f3e8;
+    text-align: center;
+    padding: 4rem;
 }
 
 /* Apply */
 .apply-block {
     background-color: white;
+    text-align: center;
+    padding: 4rem;
+}
+
+/* Checkout */
+.checkout-block {
+    background-color: white;
+    text-align: center;
+    padding: 4rem;
 }
 
 /* Footer */
-.footer {
+footer {
     background-color: black;
+    color: white;
+    padding: 2rem;
 }
