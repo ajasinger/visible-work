@@ -76,8 +76,13 @@ nav ul li:first-child {
 /* Banner */
 .banner-block {
     font-size: 4rem;
-    background-color: #f4f3e8;
+    background-color: #222;
+    color: white;
     text-align: center;
+}
+
+h1 .banner-block {
+    font-weight: 200;
 }
 
 /* Hover */
