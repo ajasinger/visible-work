@@ -23,6 +23,11 @@ h1 {
     font-weight: 300;
 }
 
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5em;
+}
+
 .italic {
     font-style: italic;
 }
