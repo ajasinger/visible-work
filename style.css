@@ -88,7 +88,6 @@ nav ul li:first-child {
 a:hover {
     text-decoration: none;
     border-bottom: 1px solid white;
-    /* color: #2b44ff; */
 }
 
 /* Button */
@@ -146,6 +145,36 @@ img {
     background-color: #f4f3e8;
     text-align: center;
     padding: 4rem;
+}
+
+.text-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.text-card {
+    border-radius: 10px;
+    width: 8rem;
+    height: 8rem;
+    padding: 2rem;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.red-border {
+    border: #FF0000 3px solid;
+}
+
+.orange-border {
+    border: #FF5924 3px solid;
+}
+
+.yellow-border {
+    border: #FFD300 3px solid;
+}
+
+.pink-border {
+    border: #f88f8f 3px solid;
 }
 
 /* Cost */
