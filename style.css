@@ -48,8 +48,9 @@ h1 {
 
 /* Navigation Bar */
 nav {
-    background-color: white;
-    color: #23282e;
+    background-color: #23282e;
+    color: white;
+    border-bottom: white solid 1px;
 }
 
 nav ul {
@@ -65,7 +66,7 @@ nav ul li {
     padding: 0 1.5em;
 }
 nav ul li a {
-    color: #23282e;
+    color: white;
     font-weight: 600;
     text-decoration: none;
     /* border-bottom: 0.25em solid blue; */
