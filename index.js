@@ -1,6 +1,6 @@
 let i = 0;
-const word = 'hello';
-const speed = 50;
+const word = 'WORK';
+const speed = 450;
 
 function typeWord() {
   if (i < word.length) {
