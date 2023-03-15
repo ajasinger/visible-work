@@ -1,10 +1,11 @@
+let i = 0;
 const word = 'hello';
+const speed = 50;
 
-function typeWord(word) {
-  let i = 0;
+function typeWord() {
   if (i < word.length) {
     document.getElementById("type").innerHTML += word.charAt(i);
     i++;
-    setTimeout(typeWord, 50);
+    setTimeout(typeWord, speed);
   }
 }
