@@ -1,3 +1,14 @@
+/* Colors 
+yellow: #E9FB3C
+teal: #9FD5C3
+pink: #FABFBA
+grey: #C3CCD5 
+bright-blue:#2b44ff
+black: #23282e
+orange: #FF5924
+neutral: #f4f3e8
+*/
+
 /* Universal */
 html, body {
     font-family: 'Inter', sans-serif;
@@ -14,17 +25,15 @@ p {
     line-height: 1.5em;
 }
 
-h1, h2 {
-    font-family: 'IBM Plex Mono', monospace;
-}
-
 h1 {
+    font-family: 'IBM Plex Mono', monospace;
     margin: 0;
     font-weight: 300;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 300;
 }
 
 .italic {
@@ -37,8 +46,7 @@ h2 {
     height: 2em;
     text-align: center;
     width: 100%;
-    /* background: #FF5924; */
-    background: #2b44ff;
+    background: #E9FB3C;
     color: #23282e;
     vertical-align: middle;
     font-size: 1rem;
@@ -82,6 +90,12 @@ nav ul li a {
 }
 nav ul li:first-child {
     margin-right: auto;
+}
+
+nav h2 {
+    font-size: 2rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
 }
 
 /* Hover */
@@ -137,7 +151,6 @@ img {
     margin: 0 auto;
     height: 100%;
     width: auto;
-    background-color: #2b44ff;
   }
 
 /* Program */
@@ -162,19 +175,20 @@ img {
 }
 
 .red-border {
-    border: #FF0000 3px solid;
+    /* border: #FF0000 3px solid; */
+    background-color: #9FD5C3;
 }
 
 .orange-border {
-    border: #FF5924 3px solid;
+    background-color: #C3CCD5;
 }
 
 .yellow-border {
-    border: #FFD300 3px solid;
+    background-color: #FABFBA;
 }
 
 .pink-border {
-    border: #f88f8f 3px solid;
+    background-color: #bae2f7;
 }
 
 /* Cost */
