@@ -79,11 +79,11 @@ nav ul {
 nav ul li {
     display: inline-block;
     list-style-type: none;
-    padding: 0 1.5em;
+    font-weight: 600;
+    padding: 0.5em 2em;
 }
 nav ul li a {
     color: white;
-    font-weight: 600;
     text-decoration: none;
     /* border-bottom: 0.25em solid blue; */
 }
@@ -92,8 +92,8 @@ nav ul li:first-child {
 }
 
 nav h2 {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.6rem;
+    font-weight: 600;
 }
 
 /* Hover */
