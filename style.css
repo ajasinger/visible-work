@@ -102,20 +102,24 @@ a:hover {
     border-bottom: 1px solid white;
 }
 
-/* Button */
-.black-button {
+/* Buttons */
+.yellow-button {
     background-color: #FBE134;
-    color: black;
+    color: #111A22;
     font-weight: 600;
-    /* border: white solid 1px; */
     border: none;
     border-radius: 20px; 
     padding: 12px 22px;
     cursor: pointer;
 }
 
-.black-button:hover {
+.black-hover:hover {
     background-color: white;
+}
+
+.transparent-hover:hover {
+    background-color: #F5F3EB;
+    border: 1px solid #111A22;
 }
 
 /* Banner */
