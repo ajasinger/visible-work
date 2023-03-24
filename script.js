@@ -9,6 +9,8 @@ function typeWord() {
     document.getElementById("type").innerHTML += wordsArray[arrayI].charAt(wordI);
     wordI++;
     setTimeout(typeWord, typeSpeed);
+  } else {
+    setTimeout(erase, newWordSpeed);
   }
 }
 
