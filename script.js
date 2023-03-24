@@ -14,8 +14,6 @@ function typeWord() {
   }
 }
 
-typeWord();
-
 function eraseWord() {
   if(wordI > 0) {
     document.getElementById("type").innerHTML = wordsArray[arrayI].substring(0, wordI-1);
@@ -30,6 +28,8 @@ function eraseWord() {
   }
 }
 
+
+//this is not working 
 document.addEventListener("DOMContentLoaded", function() {
-  if(wordsArray.length) setTimeOut(type, 500000);
+  setTimeOut(type, 500000);
 })
