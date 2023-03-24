@@ -10,8 +10,22 @@ function typeWord() {
     wordI++;
     setTimeout(typeWord, typeSpeed);
   } else {
-    setTimeout(erase, newWordSpeed);
+    setTimeout(eraseWord, newWordSpeed);
   }
 }
 
 typeWord();
+
+function eraseWord() {
+  if(wordI > 0) {
+    document.getElementById("type").innerHTML = wordsArray[arrayI].substring(0, wordI-1);
+    wordI--;
+    setTimeout(eraseWord, typeSpeed);
+  } else {
+    arrayI++;
+    if(arrayI >= wordsArray.length) {
+        arrayI = 0;
+    } 
+    setTimeout(typeWord, typeSpeed);
+  }
+}
