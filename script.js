@@ -1,20 +1,15 @@
-let i = 0;
-const word = 'WORK';
-const speed = 450;
+let arrayI = 0;
+let wordI = 0
+const wordsArray = ['WORK', 'ACCOMPLISHMENTS', 'EXPERIENCE'];
+const typeSpeed = 450;
+const newWordSpeed = 900;
 
 function typeWord() {
-  if (i < word.length) { 
-    document.getElementById("type").innerHTML += word.charAt(i);
-    i++;
-    setTimeout(typeWord, speed);
+  if (wordI < wordsArray[arrayI].length) { 
+    document.getElementById("type").innerHTML += wordsArray[arrayI].charAt(wordI);
+    wordI++;
+    setTimeout(typeWord, typeSpeed);
   }
 }
 
-
-function deleteWord() {
-  if (i >= word.length) { 
-    document.getElementById("type").innerHTML -= word.pop();
-    i--;
-    setTimeout(deleteWord, speed);
-  }
-}
+typeWord();
