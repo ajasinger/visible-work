@@ -29,7 +29,6 @@ function eraseWord() {
 }
 
 
-//this is not working 
 document.addEventListener("DOMContentLoaded", function() {
-  setTimeOut(type, 500000);
+  setTimeout(typeWord, 500);
 })
