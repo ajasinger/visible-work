@@ -1,14 +1,3 @@
-/* Colors 
-yellow: #E9FB3C
-teal: #9FD5C3
-pink: #FABFBA
-grey: #C3CCD5 
-bright-blue:#2b44ff
-black: #23282e
-orange: #FF5924
-neutral: #f4f3e8
-*/
-
 /* Universal */
 html, body {
     font-family: 'Inter', sans-serif;
@@ -129,6 +118,10 @@ a:hover {
     color: white; */
     text-align: center;
     padding: 4rem 1rem;
+}
+
+#type {
+    height: 10rem;
 }
 
 /* Offering */
