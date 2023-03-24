@@ -1,8 +1,8 @@
 let arrayI = 0;
 let wordI = 0
-const wordsArray = ['WORK', 'ACCOMPLISHMENTS', 'EXPERIENCE'];
-const typeSpeed = 450;
-const newWordSpeed = 900;
+const wordsArray = ['WORK', 'ACHIEVEMENTS', 'EXPERIENCE'];
+const typeSpeed = 350;
+const newWordSpeed = 500;
 
 function typeWord() {
   if (wordI < wordsArray[arrayI].length) { 
@@ -29,3 +29,7 @@ function eraseWord() {
     setTimeout(typeWord, typeSpeed);
   }
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  if(wordsArray.length) setTimeOut(type, 500000);
+})
