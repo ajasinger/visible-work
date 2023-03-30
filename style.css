@@ -11,7 +11,7 @@ html, body {
 /* Text styling */
 h1 {
     margin: 0;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 6rem;
     line-height: 7rem;
 }
@@ -26,20 +26,22 @@ h3 {
 }
 
 h4 {
-
-}
-
-h5 {
-
-}
-
-h6 {
-
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 p {
     font-weight: 300;
     line-height: 1.5em;
+}
+
+p .large {
+    font-size: 1.25rem;
+}
+
+/* Button */
+button {
+    font-weight: 600;
 }
 
 /* Logo */
