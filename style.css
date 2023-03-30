@@ -40,9 +40,18 @@ p .large {
     font-size: 1.25rem;
 }
 
-/* Button */
-button {
+.bold {
     font-weight: 600;
+}
+
+/* Arrow */
+
+.arrow {
+    color:#FBE134;
+}
+
+.white-arrow {
+    color: white;
 }
 
 /* Logo */
@@ -115,7 +124,11 @@ a:hover {
 }
 
 /* What we do */
-
+.what-we-do-block {
+    background-color: #F5F3EB;
+    color: black;
+    padding: 8.75rem 18.75rem;
+}
 
 /* Program */
 .program-block {
