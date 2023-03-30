@@ -127,7 +127,8 @@ a:hover {
 .what-we-do-block {
     background-color: #F5F3EB;
     color: black;
-    padding: 8.75rem 18.75rem;
+    padding: 6.25rem 12.5rem;
+    display: flex;
 }
 
 /* Program */
