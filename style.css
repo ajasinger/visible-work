@@ -9,47 +9,43 @@ html, body {
 }
 
 /* Text styling */
+h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 7rem;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
 p {
     font-weight: 300;
     line-height: 1.5em;
 }
 
-h1 {
-    margin: 0;
-    font-weight: 300;
+/* Logo */
+.logo {
+    font-weight: 600;
 }
-
-h2 {
-    font-size: 3rem;
-    font-weight: 300;
-}
-
-.italic {
-    font-style: italic;
-}
-
-/* Announcement Bar */
-/* .announcement {
-    display: flex;
-    height: 2em;
-    text-align: center;
-    width: 100%;
-    background: #E9FB3C;
-    color: #23282e;
-    vertical-align: middle;
-    font-size: 1rem;
-    margin: auto;
-    align-items:center;
-    justify-content:center;
-  }
-  
-  .announcement a { 
-    color: #23282e;
-  }
-  
-  .announcement a:hover {
-    color: white;
-  } */
 
 /* Navigation Bar */
 nav {
