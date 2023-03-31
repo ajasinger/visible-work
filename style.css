@@ -131,6 +131,22 @@ a:hover {
     display: flex;
 }
 
+/* What you get */
+.what-you-get-block {
+    background-color: #F5F3EB;
+    color: black;
+    padding: 6.25rem 12.5rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.icon-blocks-container {
+    display: flex;
+
+}
+
 /* Program */
 .program-block {
     background-color: #111A22;
