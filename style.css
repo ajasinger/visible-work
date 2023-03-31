@@ -160,6 +160,7 @@ a:hover {
 
 .icon-blocks-container {
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 /* Program schedule */
