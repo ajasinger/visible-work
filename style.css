@@ -197,6 +197,13 @@ a:hover {
     border-radius: 20px;
 }
 
+/* About us */
+.about-us-block {
+    background-color: #F5F3EB;
+    color: black;
+    padding: 6.25rem 12.5rem;
+    display: flex;
+}
 
 /* Footer */
 footer {
