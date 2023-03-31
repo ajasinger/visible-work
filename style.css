@@ -138,13 +138,18 @@ a:hover {
     padding: 6.25rem 12.5rem;
 }
 
+.white-box {
+    background-color: white;
+    padding: 2rem;
+    /* border-radius: 20; */
+}
+
 .center {
     text-align: center;
 }
 
 .icon-blocks-container {
     display: flex;
-
 }
 
 /* Program */
