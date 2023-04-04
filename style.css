@@ -13,7 +13,6 @@ h1 {
     margin: 0;
     font-weight: 700;
     font-size: 6rem;
-    line-height: 7em;
 }
 
 h2 {
@@ -130,7 +129,7 @@ a:hover {
 }
 
 #type {
-    height: 7em;
+    height: 7rem;
 }
 
 /* What we do */
@@ -139,19 +138,21 @@ a:hover {
     color: black;
     padding: 6.25em 12.5em;
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* What you get */
 .what-you-get-block {
     background-color: #F5F3EB;
     color: black;
-    padding: 6.25em 12.5em;
+    padding: 2em 5em;
 }
 
 .white-box {
     background-color: white;
-    padding: 2em;
-    /* border-radius: 20; */
+    margin: 1em;
+    padding: 3em;
+    border-radius: 20px;
 }
 
 .center {
@@ -160,7 +161,7 @@ a:hover {
 
 .icon-blocks-container {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 /* Program schedule */
@@ -203,6 +204,7 @@ a:hover {
     color: black;
     padding: 6.25em 12.5em;
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Footer */
