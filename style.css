@@ -22,7 +22,7 @@ h2 {
 
 h3 {
     font-weight: 300;
-    line-height: 2.8em;
+    line-height: 1.6em;
 }
 
 h4 {
@@ -57,11 +57,12 @@ p .large {
 .logo {
     font-size: 1.6rem;
     font-weight: 600;
+    margin: 0.8em;
 }
 
 /* Navigation Bar */
 nav {
-    border-bottom: white solid 1px;
+    border-bottom: white solid .75px;
 }
 
 nav ul {
@@ -75,7 +76,7 @@ nav ul li {
     display: inline-block;
     list-style-type: none;
     font-weight: 600;
-    padding: 0.5em 2em;
+    padding: 0em 2em;
 }
 
 nav ul li:first-child {
@@ -120,12 +121,12 @@ a:hover {
 
 /* Header */
 .header-block {
-    padding: 6.25em 12.5em;
+    margin: 5.5em 9em 7em 9em;
 }
 
 .header-block h3 {
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
 }
 
 #type {
