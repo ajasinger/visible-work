@@ -200,16 +200,13 @@ a:hover {
 }
 
 /* Program schedule */
-.program-block {
-    background-color: #111A22;
-    text-align: center;
+.program-schedule-block {
     padding: 4em;
 }
 
 .text-card-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 6.25em;
 }
 
 .text-card {
