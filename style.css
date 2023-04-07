@@ -175,12 +175,12 @@ a:hover {
 .what-you-get-block {
     background-color: #F5F3EB;
     color: black;
-    padding: 2em 5em;
+    padding: 2em 5em 6.25em 5em;
 }
 
 .white-box {
     background-color: white;
-    margin: 2em;
+    margin-bottom: 2em;
     padding: 3em;
     border-radius: 20px;
 }
