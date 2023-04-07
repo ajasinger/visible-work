@@ -155,7 +155,12 @@ a:hover {
     color: black;
     padding: 6.25em 12.5em;
     display: flex;
+    justify-content: space-between;
     /* flex-wrap: wrap; */
+}
+
+.body-container {
+    width: 31em;
 }
 
 /* What you get */
@@ -221,6 +226,7 @@ a:hover {
     color: black;
     padding: 6.25em 12.5em;
     display: flex;
+    justify-content: space-between;
     /* flex-wrap: wrap; */
 }
 
