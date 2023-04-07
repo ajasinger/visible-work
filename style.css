@@ -123,6 +123,7 @@ a:hover {
 .header-block {
     margin: 5.5em 9em 7em 9em;
     display: flex;
+    align-items: center;
 }
 
 .header-block h3 {
