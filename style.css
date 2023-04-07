@@ -223,8 +223,8 @@ p ~ button {
     text-align: center;
     background-color: #FBE134;
     color: black;
-    margin: 5em;
-    padding: 5em;
+    margin: 7em;
+    padding: 5em 7em;
     border-radius: 20px;
 }
 
