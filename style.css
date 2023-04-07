@@ -200,6 +200,7 @@ a:hover {
 .text-card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .text-card {
