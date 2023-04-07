@@ -139,6 +139,10 @@ a:hover {
     align-items: center;
 }
 
+.header-text h3 {
+    width: 50vw;
+}
+
 .header-image {
     position: absolute;
     right: 0px;
