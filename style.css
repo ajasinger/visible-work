@@ -116,6 +116,10 @@ a:hover {
     border: 1px solid #111A22;
 }
 
+p ~ button {
+    margin-top: 3em;
+}
+
 /* Header */
 .header-block {
     margin: 5.5em 9em 7em 9em;
