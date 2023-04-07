@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 600;
     margin-top: 0;
 }
@@ -173,7 +173,7 @@ a:hover {
 
 .white-box {
     background-color: white;
-    margin-bottom: 2em;
+    margin: 0 2em 2em 2em;
     padding: 3em;
     border-radius: 20px;
 }
