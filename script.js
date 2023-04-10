@@ -1,4 +1,6 @@
-let imageArray= ["./assets/light-bulb.png","./assets/egg1.png", "./assets/egg2.png"];
+const imageArray= ["./assets/light-bulb.png","./assets/egg1.png", "./assets/egg2.png"];
+
+let i = Math.floor(Math.random() * imageArray.length);
 
 
 
