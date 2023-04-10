@@ -1,3 +1,7 @@
+let imageArray= ["./assets/light-bulb.png","./assets/egg1.png", "./assets/egg2.png"];
+
+
+
 let arrayI = 0;
 let wordI = 0
 const wordsArray = ['WORK', 'ACHIEVEMENTS', 'EXPERIENCE'];
