@@ -1,6 +1,8 @@
 const imageArray= ["./assets/light-bulb.png","./assets/egg1.png", "./assets/egg2.png"];
 
 let i = Math.floor(Math.random() * imageArray.length);
+let imageString = imageArray[i];
+document.getElementById('header-image')
 
 
 
