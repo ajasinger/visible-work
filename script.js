@@ -1,11 +1,20 @@
-const imageArray= ["./assets/light-bulb.png","./assets/egg1.png", "./assets/egg2.png"];
+//Random image selector
+let images = ["./assets/light-bulb.png","./assets/egg1.png", "./assets/egg2.png"];
 
-let i = Math.floor(Math.random() * imageArray.length);
-let imageString = imageArray[i];
-document.getElementById('header-image')
+function imageHandler() {
+  const i = Math.floor(Math.random() * images.length);
+  document.getElementById('image-selector').src = images[i];
+  // console.log(i);
+  // console.log(images[i]);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  imageHandler();
+})
 
 
 
+//Typing animation
 let arrayI = 0;
 let wordI = 0
 const wordsArray = ['WORK', 'ACHIEVEMENTS', 'EXPERIENCE'];
