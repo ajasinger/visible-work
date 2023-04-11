@@ -44,6 +44,6 @@ function eraseWord() {
 }
 
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
   setTimeout(typeWord, 500);
 })
