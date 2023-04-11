@@ -1,11 +1,9 @@
 //Random image selector
-let images = ["./assets/light-bulb.png","./assets/egg1.png", "./assets/egg2.png"];
+let randomImages = ["./assets/light-bulb.png","./assets/egg1.png", "./assets/egg2.png"];
 
 function imageHandler() {
-  const i = Math.floor(Math.random() * images.length);
-  document.getElementById('image-selector').src = images[i];
-  // console.log(i);
-  // console.log(images[i]);
+  const i = Math.floor(Math.random() * randomImages.length);
+  document.getElementById('image-selector').src = randomImages[i];
 }
 
 document.addEventListener("DOMContentLoaded", () => {
