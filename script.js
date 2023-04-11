@@ -47,3 +47,10 @@ function eraseWord() {
 document.addEventListener("DOMContentLoaded", () => {
   setTimeout(typeWord, 500);
 })
+
+// Buttons
+const buttons = document.querySelectorAll(".button");
+
+buttons.forEach((button) => {
+  button.addEventListener("click", buttonHandler());
+})
