@@ -107,13 +107,26 @@ a:hover {
     cursor: pointer;
 }
 
-.black-hover:hover {
+.white-hover:hover {
     background-color: white;
+    transition: 0.2s;
 }
 
-.transparent-hover:hover {
+.black-hover:hover {
+    background-color: #111A22;
+    transition: 0.2s;
+}
+
+.outline-hover:hover {
     background-color: #F5F3EB;
     border: 1px solid #111A22;
+    transition: 0.2s;
+}
+
+.yellow-outline-hover:hover {
+    background-color: #FBE134;
+    border: 1px solid #111A22;
+    transition: 0.2s;
 }
 
 p ~ button {
