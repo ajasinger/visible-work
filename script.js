@@ -50,7 +50,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Buttons
 const buttons = document.querySelectorAll(".button");
+//change to "button" and remove class designation?
 
 buttons.forEach((button) => {
-  button.addEventListener("click", buttonHandler());
+  button.addEventListener("click", clickHandler());
 })
+
+function clickHandler() {
+  button.style.background.color = red;
+}
