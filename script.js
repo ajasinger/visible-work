@@ -48,14 +48,19 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(typeWord, 500);
 })
 
+
 // Buttons
-const buttons = document.querySelectorAll(".button");
+const buttons = document.querySelectorAll(".calendly-button");
 //change to "button" and remove class designation?
 
 buttons.forEach((button) => {
-  button.addEventListener("click", clickHandler());
+  button.addEventListener("click", function clickHandler() {
+    //Calendly pop-up
+    Calendly.initPopupWidget({
+      url: 'https://calendly.com/ajasinger',
+      parentElement: button,
+      prefill: {},
+      utm: {}
+     });
+  });
 })
-
-function clickHandler() {
-  button.style.background.color = red;
-}
