@@ -22,6 +22,7 @@ h2 {
 }
 
 h3 {
+    font-size: 1.15rem;
     font-weight: 300;
     line-height: 1.6em;
 }
@@ -136,13 +137,13 @@ p ~ button {
 }
 
 /* Header */
-.header-block {
+header {
     margin: 5.5em 9em 7em 9em;
     display: flex;
     align-items: center;
 }
 
-.header-block h3 {
+header h3 {
     padding-top: 1em;
     padding-bottom: 1.5em;
 }
@@ -166,7 +167,7 @@ p ~ button {
     opacity: 0.7;
 }
 
-.header-block img {
+header img {
     height: 600px;
     max-width: 800px;
     overflow: hidden;
