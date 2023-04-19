@@ -112,6 +112,7 @@ a:hover {
 .white-hover:hover {
     background-color: white;
     transition: 0.2s;
+    border: 1px solid white;
 }
 
 .black-hover:hover {
