@@ -43,10 +43,10 @@ function eraseWord() {
   }
 }
 
-
 document.addEventListener("DOMContentLoaded", () => {
   setTimeout(typeWord, 500);
 })
+
 
 
 // Calendly pop-up on all Buttons
