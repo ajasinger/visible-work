@@ -57,7 +57,7 @@ buttons.forEach((button) => {
   button.addEventListener("click", function clickHandler() {
     //Calendly pop-up
     Calendly.initPopupWidget({
-      url: 'https://calendly.com/ajasinger',
+      url: 'https://calendly.com/toChange',
       parentElement: button,
       prefill: {},
       utm: {}
