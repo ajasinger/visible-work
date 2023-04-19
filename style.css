@@ -170,7 +170,6 @@ p ~ button {
     height: 600px;
     max-width: 800px;
     overflow: hidden;
-    background-position: center;
     object-fit: cover;
 }
 
@@ -263,5 +262,17 @@ footer {
 }
 
 @media (max-width: 1230px) {
+    .header-block img {
+        max-width: 550px;
+    }
 
+    .what-we-do-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-block {
+        flex-direction: column;
+        align-items: center;
+    }
 }
