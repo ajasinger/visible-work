@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
 //Typing animation
 let arrayI = 0;
 let wordI = 0
-const wordsArray = ['WORK', 'ACHIEVEMENTS', 'EXPERIENCE'];
-const typeSpeed = 350;
-const newWordSpeed = 500;
+const wordsArray = ['WORK', 'ACHIEVEMENTS', 'EXPERIENCE', 'SKILLS', 'INSIGHTS'];
+const typeSpeed = 50;
+const newWordSpeed = 800;
 
 function typeWord() {
   if (wordI < wordsArray[arrayI].length) { 
