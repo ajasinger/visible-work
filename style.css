@@ -95,6 +95,7 @@ a:hover {
     border-radius: 20px; 
     padding: 1em 2.3em;
     cursor: pointer;
+    border: 1px solid #FBE134;
 }
 
 .white-button {
@@ -105,6 +106,7 @@ a:hover {
     border-radius: 20px; 
     padding: 1em 2.3em;
     cursor: pointer;
+    border: 1px solid white;
 }
 
 .white-hover:hover {
