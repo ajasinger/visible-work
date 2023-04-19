@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 
-// Buttons
+// Calendly pop-up on all Buttons
 const buttons = document.querySelectorAll(".calendly-button");
 //change to "button" and remove class designation?
 
@@ -57,7 +57,7 @@ buttons.forEach((button) => {
   button.addEventListener("click", function clickHandler() {
     //Calendly pop-up
     Calendly.initPopupWidget({
-      url: 'https://calendly.com/toChange',
+      url: 'https://calendly.com/ajasinger/30min',
       parentElement: button,
       prefill: {},
       utm: {}
