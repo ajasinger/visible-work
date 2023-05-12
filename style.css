@@ -52,7 +52,7 @@ p {
 
 /* Logo */
 .logo {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin: 0.8em;
 }
@@ -261,6 +261,10 @@ header img {
 footer {
     text-align: right;
     padding: 2rem;
+}
+
+footer .logo {
+    margin-right: 0px;
 }
 
 @media (max-width: 1230px) {
