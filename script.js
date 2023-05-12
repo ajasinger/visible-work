@@ -1,5 +1,5 @@
 //Random image selector
-let randomImages = ["./assets/shutterstock_130978478.jpg"];
+let randomImages = ["./assets/shutterstock_130978478.jpg","./assets/shutterstock_214618969.jpg", "./assets/shutterstock_297829895.jpg"];
 
 function imageHandler() {
   const i = Math.floor(Math.random() * randomImages.length);
