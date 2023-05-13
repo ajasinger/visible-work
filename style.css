@@ -177,6 +177,10 @@ header img {
 }
 
 /* What we do */
+.cream-background-container {
+    background-color: #F5F3EB;
+}
+
 .what-we-do-block {
     background-color: #F5F3EB;
     color: black;
