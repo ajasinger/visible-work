@@ -218,7 +218,8 @@ header img {
 }
 
 .icon-block {
-    width: 15vw;
+    max-width: 15vw;
+    margin: 1em 1.25em;
 }
 
 /* Program schedule */
@@ -296,3 +297,9 @@ footer .logo {
         width: 60vw;
     }
 }
+
+/* @media (max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+    }
+} */
