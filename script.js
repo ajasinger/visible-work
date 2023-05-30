@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Calendly pop-up on all Buttons
 const buttons = document.querySelectorAll(".calendly-button");
-//change to "button" and remove class designation?
 
 buttons.forEach((button) => {
   button.addEventListener("click", function clickHandler() {
