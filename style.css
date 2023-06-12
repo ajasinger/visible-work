@@ -165,7 +165,6 @@ header h3 {
 .header-image {
     position: absolute;
     right: 5em;
-    /* opacity: 0.7; */
 }
 
 header img {
@@ -184,7 +183,7 @@ header img {
 .what-we-do-block {
     background-color: #F5F3EB;
     color: black;
-    padding: 6.25em 12.5em;
+    padding: 6.25em 11em;
     display: flex;
     justify-content: space-between;
 }
@@ -258,7 +257,7 @@ header img {
 .about-us-block {
     background-color: #F5F3EB;
     color: black;
-    padding: 6.25em 12.5em;
+    padding: 6.25em 11em;
     display: flex;
     justify-content: space-between;
 }
@@ -273,7 +272,7 @@ footer .logo {
     margin-right: 0px;
 }
 
-@media (max-width: 1230px) {
+@media (max-width: 1200px) {
     .header-block img {
         max-width: 550px;
     }
@@ -282,14 +281,27 @@ footer .logo {
         display: none;
     }
 
-    .what-we-do-block {
+    .header-text h3 {
+        max-width: 65vw;
+    }
+}
+
+@media (max-width: 992px) {
+
+     .what-we-do-block {
         flex-direction: column;
         align-items: center;
+        text-align: center;
+    }
+
+    .white-box {
+        padding: 7em;
     }
 
     .about-us-block {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .body-container {
@@ -298,8 +310,76 @@ footer .logo {
     }
 }
 
-/* @media (max-width: 800px) {
-    h1 {
-        font-size: 2rem;
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 5rem;
     }
-} */
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 3.5rem;
+    }
+
+    #type {
+        height: 4rem;
+    }
+
+    .what-we-do-block {
+        padding: 6.25em 5em;
+    }
+
+    .what-you-get-block {
+        background-color: white;
+        color: black;
+        padding: 6em;
+    }
+
+    .white-box {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0px;
+    }
+
+    .icon-block {
+        max-width: 20vw;
+        margin: 1em 1.25em;
+    }
+
+    .info-session-block {
+        margin: 0px;
+        padding: 5em 5em;
+        border-radius: 0px;
+    }
+
+    .about-us-block {
+        padding: 6.25em 5em;
+    }
+}
+
+@media (max-width: 390px) {
+    nav {
+        font-size: 10px;
+    }
+    
+    header h1 {
+        font-size: 1.75rem;
+        line-height: 3rem;
+    }
+
+    #type {
+        height: 3rem;
+    }
+
+    .what-you-get-block {
+        padding: 4em;
+    }
+
+    .program-schedule-block {
+        padding: 4em 2em;
+    }
+
+    .text-card {
+        height: 42em;
+    }
+}
