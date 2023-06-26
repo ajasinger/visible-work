@@ -217,7 +217,7 @@ header img {
 }
 
 .icon-block {
-    max-width: 18vw;
+    max-width: 14vw;
     margin: 1em 1.25em;
 }
 
@@ -332,7 +332,6 @@ footer .logo {
     .what-you-get-block {
         background-color: white;
         color: black;
-        padding: 6em;
     }
 
     .white-box {
