@@ -56,7 +56,7 @@ buttons.forEach((button) => {
   button.addEventListener("click", function clickHandler() {
     //Calendly pop-up
     Calendly.initPopupWidget({
-      url: 'https://calendly.com/ajasinger/30min',
+      url: 'https://calendly.com/ceonyc/visible-work-info-session',
       parentElement: button,
       prefill: {},
       utm: {}
