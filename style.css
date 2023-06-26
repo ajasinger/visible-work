@@ -217,7 +217,7 @@ header img {
 }
 
 .icon-block {
-    max-width: 15vw;
+    max-width: 18vw;
     margin: 1em 1.25em;
 }
 
@@ -237,7 +237,7 @@ header img {
     color: black;
     border-radius: 10px;
     width: 18em;
-    height: 33em;
+    min-height: 33em;
     padding: 2em;
     align-items: center;
     margin: 1.5em;
@@ -294,8 +294,8 @@ footer .logo {
         text-align: center;
     }
 
-    .white-box {
-        padding: 7em;
+    .icon-block {
+        text-align: center;
     }
 
     .about-us-block {
@@ -379,7 +379,4 @@ footer .logo {
         padding: 4em 2em;
     }
 
-    .text-card {
-        height: 42em;
-    }
 }
