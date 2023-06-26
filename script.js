@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //Typing animation
 let arrayI = 0;
 let wordI = 0
-const wordsArray = ['WORK', 'ACHIEVEMENTS', 'EXPERIENCE', 'SKILLS', 'INSIGHTS'];
+const wordsArray = ['WORK', 'EXPERIENCE', 'WINS', 'SKILLS', 'INSIGHTS'];
 const typeSpeed = 50;
 const newWordSpeed = 800;
 
