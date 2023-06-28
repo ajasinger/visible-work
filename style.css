@@ -262,6 +262,21 @@ header img {
     justify-content: space-between;
 }
 
+.about-us-block a {
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color:#FBE134;
+    text-decoration-thickness: 2px;
+}
+
+.about-us-block a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+}
+
+
 /* Footer */
 footer {
     text-align: right;
