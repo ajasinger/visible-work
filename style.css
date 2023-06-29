@@ -290,11 +290,7 @@ footer .logo {
 }
 
 @media (max-width: 1200px) {
-    .header-block img {
-        max-width: 550px;
-    }
-
-    .header-image {
+   .header-image {
         display: none;
     }
 
