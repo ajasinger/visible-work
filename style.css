@@ -219,6 +219,7 @@ header img {
 
 .icon-block {
     max-width: 14vw;
+    min-width: 8em;
     margin: 1em 1.25em;
 }
 
@@ -363,6 +364,10 @@ footer .logo {
         margin: 1em 1.25em;
     }
 
+    .program-schedule-block {
+        padding: 4em 1em;
+    }
+
     .info-session-block {
         margin: 0px;
         padding: 5em 5em;
@@ -389,11 +394,7 @@ footer .logo {
     } 
 
     .what-you-get-block {
-        padding: 4em;
-    }
-
-    .program-schedule-block {
-        padding: 4em 2em;
+        padding: 4em 1.5em;
     }
 
 } 
