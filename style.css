@@ -183,7 +183,7 @@ header img {
 .what-we-do-block {
     background-color: #F5F3EB;
     color: black;
-    padding: 6.25em 11em;
+    padding: 6em 11em 3em 11em;
     display: flex;
     justify-content: space-between;
 }
@@ -196,7 +196,7 @@ header img {
 .what-you-get-block {
     background-color: #F5F3EB;
     color: black;
-    padding: 2em 5em 6.25em 5em;
+    padding: 3em 5em 6em 5em;
 }
 
 .white-box {
@@ -224,7 +224,7 @@ header img {
 
 /* Program schedule */
 .program-schedule-block {
-    padding: 4em;
+    padding: 6em 4em 3em 4em;
 }
 
 .text-card-container {
@@ -250,7 +250,7 @@ header img {
     background-color: #FBE134;
     color: black;
     margin: 7em;
-    padding: 5em 7em;
+    padding: 3em 7em 6em 7em;
     border-radius: 20px;
 }
 
@@ -258,7 +258,7 @@ header img {
 .about-us-block {
     background-color: #F5F3EB;
     color: black;
-    padding: 6.25em 11em;
+    padding: 6em 11em;
     display: flex;
     justify-content: space-between;
 }
