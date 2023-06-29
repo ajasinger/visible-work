@@ -299,16 +299,13 @@ footer .logo {
         max-width: 65vw;
     }
 }
-
+ 
+/* what-you-get 3 on a line here */
 @media (max-width: 992px) {
 
      .what-we-do-block {
         flex-direction: column;
         align-items: center;
-        text-align: center;
-    }
-
-    .icon-block {
         text-align: center;
     }
 
@@ -324,19 +321,25 @@ footer .logo {
     }
 }
 
+/* what-you-get 3 on a line here */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 5rem;
-    }
-}
-
-@media (max-width: 576px) {
-    header h1 {
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
 
     #type {
-        height: 4rem;
+        height: 5rem;
+    }
+}
+
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    #type {
+        height: 3rem;
     }
 
     .what-we-do-block {
@@ -370,19 +373,19 @@ footer .logo {
     }
 }
 
+
 @media (max-width: 390px) {
     nav {
         font-size: 10px;
     }
     
     header h1 {
-        font-size: 1.75rem;
-        line-height: 3rem;
+        font-size: 2.25rem;
     }
 
     #type {
-        height: 3rem;
-    }
+        height: 2.5rem;
+    } 
 
     .what-you-get-block {
         padding: 4em;
@@ -392,4 +395,4 @@ footer .logo {
         padding: 4em 2em;
     }
 
-}
+} 
