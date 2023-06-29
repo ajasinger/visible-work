@@ -267,13 +267,15 @@ header img {
     font-weight: 600;
     text-decoration: underline;
     text-decoration-color:#FBE134;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 2.5px;
 }
 
 .about-us-block a:hover {
     text-decoration: underline;
-    text-decoration-color: black;
-    text-decoration-thickness: 2px;
+    text-decoration-color: #FBE134;
+    text-decoration-thickness: 2.5px;
+    background-color: #FBE134;
+    transition: 0.1s;
 }
 
 
