@@ -347,7 +347,7 @@ footer .logo {
     .what-you-get-block {
         background-color: white;
         color: black;
-        padding: 6em 3em;
+        padding: 6em 2em;
     }
 
     .white-box {
@@ -384,9 +384,4 @@ footer .logo {
     nav {
         font-size: 10px;
     } 
-
-    .what-you-get-block {
-        padding: 6em 0em;
-    }
-
 } 
