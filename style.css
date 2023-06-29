@@ -341,13 +341,13 @@ footer .logo {
     }
 
     .what-we-do-block {
-        padding: 6.25em 5em;
+        padding: 6em 5em;
     }
 
     .what-you-get-block {
         background-color: white;
         color: black;
-        padding: 6.25em 3em;
+        padding: 6em 3em;
     }
 
     .white-box {
@@ -367,7 +367,7 @@ footer .logo {
     }
 
     .about-us-block {
-        padding: 6.25em 5em;
+        padding: 6em 5em;
     }
 }
 
@@ -386,7 +386,7 @@ footer .logo {
     } 
 
     .what-you-get-block {
-        padding: 4em 1.5em;
+        padding: 6em 2em;
     }
 
 } 
