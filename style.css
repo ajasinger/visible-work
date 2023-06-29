@@ -214,13 +214,12 @@ header img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    column-gap: 2px;
+    gap: 2em;
 }
 
 .icon-block {
     max-width: 14vw;
-    min-width: 8em;
-    margin: 1em 1.25em;
+    min-width: 9em;
 }
 
 /* Program schedule */
@@ -301,7 +300,6 @@ footer .logo {
     }
 }
  
-/* what-you-get 3 on a line here */
 @media (max-width: 992px) {
 
      .what-we-do-block {
@@ -322,7 +320,6 @@ footer .logo {
     }
 }
 
-/* what-you-get 3 on a line here */
 @media (max-width: 768px) {
     header h1 {
         font-size: 4rem;
@@ -350,18 +347,13 @@ footer .logo {
     .what-you-get-block {
         background-color: white;
         color: black;
-        padding: 6.25em 2em 6.25em 2em;
+        padding: 6.25em 3em;
     }
 
     .white-box {
         margin: 0px;
         padding: 0px;
         border-radius: 0px;
-    }
-
-    .icon-block {
-        max-width: 20vw;
-        margin: 1em 1.25em;
     }
 
     .program-schedule-block {
@@ -394,7 +386,7 @@ footer .logo {
     } 
 
     .what-you-get-block {
-        padding: 4em 1.5em;
+        padding: 4em 2em;
     }
 
 } 
