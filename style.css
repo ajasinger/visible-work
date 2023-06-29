@@ -335,11 +335,11 @@ footer .logo {
 
 @media (max-width: 576px) {
     header h1 {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 
     #type {
-        height: 3rem;
+        height: 2.75rem;
     }
 
     .what-we-do-block {
@@ -376,16 +376,16 @@ footer .logo {
 
 
 @media (max-width: 390px) {
-    nav {
-        font-size: 10px;
-    }
-    
     header h1 {
-        font-size: 2.25rem;
+        font-size: 2rem;
     }
 
     #type {
         height: 2.5rem;
+    }
+
+    nav {
+        font-size: 10px;
     } 
 
     .what-you-get-block {
