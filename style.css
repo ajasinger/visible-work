@@ -395,25 +395,25 @@ footer .logo {
     }
 
     .what-we-do-block {
-        padding: 6em 5em;
+        padding: 6em 4em;
     }
 
     .program-schedule-block {
-        padding: 4em 1em;
+        padding: 6em 1em;
     }
 
     .info-session-block {
         margin: 0px;
-        padding: 5em 5em;
+        padding: 6em 4em;
         border-radius: 0px;
     }
 
     .testimonials-block {
-        padding: 6em 5em;
+        padding: 6em 4em;
     }
 
     .about-us-block {
-        padding: 6em 5em;
+        padding: 6em 4em;
     }
 }
 
